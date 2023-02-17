@@ -13,7 +13,7 @@
 /* betty style doc for function main goes there */
 int main(void)
 {
-char alphabet[] = "abcdefghijklmnopqrstuvwxyz\n";
+char alphabet[] = "abcdefghijklmnopqrstuvwxyz";
 char alphabet2[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZ\n";
 int i;
 int lent = strlen(alphabet);
