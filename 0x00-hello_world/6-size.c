@@ -8,7 +8,8 @@
 
 int main(void)
 {
-long long int = a;
+long long int a;
+
 printf("Size of a char: %lu byte(s)\n", (unsigned long)sizeof(char));
 printf("Size of a int: %lu byte(s)\n", (unsigned long)sizeof(int));
 printf("Size of a long int: %lu byte(s)\n", (unsigned long)sizeof(long int));
