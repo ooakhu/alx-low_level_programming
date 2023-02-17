@@ -13,17 +13,12 @@
 /* betty style doc for function main goes there */
 int main(void)
 {
-char alphabet[] = "abcdefghijklmnopqrstuvwxyz";
-char alphabet2[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZ\n";
+char alphabet[] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ\n";
 int i;
 int lent = strlen(alphabet);
 for (i = 0; i < lent; i++)
 {
 putchar(alphabet[i]);
-}
-for (i = 0; i < lent; i++)
-{
-putchar(alphabet2[i]);
 }
 return (0);
 }
