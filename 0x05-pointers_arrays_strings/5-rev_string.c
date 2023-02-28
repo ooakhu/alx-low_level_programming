@@ -15,7 +15,7 @@ while (i < len--)
 {
 hold = s[i];
 s[i++] = s[len];
-[len] = hold;
+s[len] = hold;
 }
 }
 
