@@ -1,3 +1,5 @@
+#include <stdio.h>
+
 /**
  * print_rev - a function that prints a string in reverse
  * @s: an input str
@@ -14,6 +16,6 @@ len++;
 while (len)
 putchar(s[--len]);
 
-_putchar('\n');
+putchar('\n');
 }
 
