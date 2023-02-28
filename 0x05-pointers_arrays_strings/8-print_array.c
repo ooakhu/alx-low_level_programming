@@ -1,11 +1,10 @@
 #include <stdio.h>
-
 /**
- * print_array - a function that prints n elements of an array of integers followed by a new line.
+ * print_array - a function that prints n elements of an array of
+ * integers followed by a new line.
  * @v: an input array
  * @g: an input integer
  */
-
 
 void print_array(int *v, int g)
 {
