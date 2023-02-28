@@ -1,21 +1,22 @@
 /**
- * rev_string - a function that reverses a string
- * followed by a new line
- * @s: an input str
+ * puts2 - a function that prints every other character of a string,
+ * starting with the first character, followed by a new line.
+ * @str: an input str
  */
-void rev_string(char *s)
+
+void puts2(char *str)
 {
 int len = 0, i = 0;
-char hold;
 
-while (s[len] != '\0')
+while (str[len] != '\0')
 len++;
 
-while (i < len--)
-{
-hold = s[i];
-s[i++] = s[len];
-[len] = hold;
+len -= 1;
+
+for (; i <= len; i += 2)
+putchar(str[i]);
+
+putchar('\n');
 }
-}
+
 
