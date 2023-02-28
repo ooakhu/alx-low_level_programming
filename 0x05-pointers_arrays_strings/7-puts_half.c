@@ -12,7 +12,7 @@ int len = 0, v, g;
 while (str[len] != '\0')
 len++;
 
-ff (len % 2 == 0)
+if (len % 2 == 0)
 g = len / 2;
 
 else
